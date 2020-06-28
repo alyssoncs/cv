@@ -1,0 +1,3 @@
+[submodule "document-class"]
+	path = document-class
+	url = https://github.com/spagnuolocarmine/TwentySecondsCurriculumVitae-LaTex.git
