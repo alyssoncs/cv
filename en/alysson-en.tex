@@ -1,0 +1,140 @@
+\documentclass[]{../document-class/TwentySecondsCurriculumVitae-LaTex/twentysecondcv}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%
+%%PROFILE SIDE BAR%%
+%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%
+%%PERSONAL INFO%%%
+%%%%%%%%%%%%%%%%
+
+\profilepic{../res/alysson.jpeg} %path of profile pic
+\cvname{Alysson Cirilo} %your name
+\cvjobtitle{Software Engineer}%your actual job position
+\cvaddress{Brazil}%address
+\cvmail{alysson.cirilo@gmail.com}%e-mail
+\cvsite{github.com/alyssoncs}%personal site
+
+
+
+\aboutme{
+	I've always wanted to learn how things work under the hood, and since I got my first computer it became clear to me what I was going to do for the rest of my days. I strongly believe that creating technology is one of the most human activities there is.
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%Skill bar section, each skill must have a value between 0 an 6 (float)%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\skills{
+	{Portuguese/5},
+	{English/4.5},
+	{C programming Language/4.5},
+	{Java/4.0},
+	{Linux/4.0},
+	{LaTeX/4},
+	{Android Development/3.5},
+	{Arduino/3.5},
+	{Git/3.5},
+	{Docker/2.5},
+	{MongoDB/2.0}}
+%\skills{{pursuer of rabbits/5},{good manners/4},{outgoing/4.3},{polite/4},{Java/4.01}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%Skill text section, each skill must have a value between 0 an 6%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeprofile
+%%%%%%%%%%%%%%%%%%%%
+%%END PROFILE SIDE BAR%%
+%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%BODY%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%
+%%SIMPLE SECTION%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+\section{interests}
+I've became very interested in subjects like algorithms, operating systems, system development, IoT and much more.
+
+System development, Android development and Software Architecture are some of the subjects that I'm currently interested in and studying.
+
+\section{education}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%TWENTY LIST ITEMS%%%%%%%%%%%%%%
+%%    Four arguments: date; title; where; description %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{twenty}
+	\twentyitem
+		{2013--2019}
+		{B.Sc. in Computer Science}
+		{UFMA}
+		{\emph{Discovery and Disconnection of Smart Objects in Opportunistic IoMT Environments}}
+\end{twenty}
+
+\section{experience}
+
+\begin{twenty}
+	\twentyitem
+		{2019--Now} % Date(s)
+		{Developer} % Job title
+		{Secretaria de Estado de Administração Penitenciária do Maranhão \\\hspace*{\fill}(SEAP)}
+		{$\bullet$ Became in charge of the design, build and deployment of a flexible service and API for storing log information of other systems using MongoDB;\vskip 4pt
+			
+		$\bullet$ Implementation of a mobile application using native Android that allows visitors to schedule virtual visits to their imprisoned family members,  important resource during the Covid-19 pandemic;\vskip 4pt
+
+
+		$\bullet$ Also part of a group responsible for the maintenance and implementation of new features of the system that manages all state's prison information.}
+		
+	\twentyitem
+		{2019--2019} % Date(s)
+		{Intern} % Job title
+		{Laboratory of Intelligent Distributed Systems \\\hspace*{\fill}(LSDi)}
+		{Development of a bluetooth beacon-based indoor location system, consisting of:\vskip 4pt
+          
+        
+		$\bullet$ Development of the subsystem responsible to manage the relationships between users, bluetooth beacons and physical spaces using the Spring Boot framework and PostgreSQL;\vskip 4pt
+
+		$\bullet$ Development of an Android application able to detect bluetooth beacons in the environment and registering this encounter in a Web service using Retrofit.}
+
+	\twentyitem
+		{2017--2019} % Date(s)
+		{Undergraduate Research Fellow} % Job title
+		{Laboratory of Intelligent Distributed Systems \\\hspace*{\fill}(LSDi)}
+		{$\bullet$ Implementation of new functionalities in an existing IoT middleware using Java on the Android platform, including a notification mechanism for discovery, connection and disconnection of smart objects;\vskip 4pt 
+
+
+		$\bullet$ Development of embedded software using the C programming language to Arduino boards, including the use of Bluetooth Low Energy technology;\vskip 4pt 
+
+		$\bullet$ Integration between the embedded and mobile software using Bluetooth Low Energy and MQTT technologies.}
+		
+
+
+\end{twenty}
+
+
+\section{other information}
+
+Pursuing a computer science degree was the next logical step to make. I became passionate about many fields.
+
+Eventually I came to the conclusion that mastering the basis, the fundamentals, is the way to go to be a competent professional, so I usually follow a bottom-up approach when studying any subjects.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%TWENTY LIST SHORTITEMS%%%%%%%%%%%%%%
+%%% Two arguments: date; title/description %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%ENDBODY%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+
+\end{document} 

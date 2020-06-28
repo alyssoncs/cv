@@ -1,0 +1,142 @@
+\documentclass[]{../document-class/TwentySecondsCurriculumVitae-LaTex/twentysecondcv}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%
+%%PROFILE SIDE BAR%%
+%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%
+%%PERSONAL INFO%%%
+%%%%%%%%%%%%%%%%
+
+\profilepic{../res/alysson.jpeg} %path of profile pic
+\cvname{Alysson Cirilo} %your name
+\cvjobtitle{Software Engineer}%your actual job position
+\cvaddress{Brazil}%address
+\cvmail{alysson.cirilo@gmail.com}%e-mail
+\cvsite{github.com/alyssoncs}%personal site
+
+
+
+\aboutme{
+	Eu sempre quis aprender como as coisas realmente funcionam por baixo dos panos, e desde que eu recebi meu primeiro computador tornou-se claro para mim o que eu faria pelo resto dos meus dias. Eu acredito fortemente que criar tecnologia é uma das atividades mais humanas que existem.
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%Skill bar section, each skill must have a value between 0 an 6 (float)%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\skills{
+	{Português/5},
+	{Inglês/4.5},
+	{Programação C/4.5},
+	{Java/4.0},
+	{Linux/4.0},
+	{LaTeX/4},
+	{Desenvolvimeto Android/3.5},
+	{Arduino/3.5},
+	{Git/3.5},
+	{Kotlin/3.0},
+	{Docker/2.5},
+	{MongoDB/2.0}}
+%\skills{{pursuer of rabbits/5},{good manners/4},{outgoing/4.3},{polite/4},{Java/4.01}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%Skill text section, each skill must have a value between 0 an 6%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeprofile
+%%%%%%%%%%%%%%%%%%%%
+%%END PROFILE SIDE BAR%%
+%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%BODY%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%
+%%SIMPLE SECTION%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+\section{interesses}
+Eu me tornei muito interessado em assuntos como algoritmos, sistemas operacionais, desenvolvimento de sistemas, IoT e muito mais.
+
+Desenvolvimento de sistemas, desenvolvimento Android e arquitetura de software são alguns dos assuntos que eu estou atualmente interessado e estudando.
+
+\section{educação}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%TWENTY LIST ITEMS%%%%%%%%%%%%%%
+%%    Four arguments: date; title; where; description %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{twenty}
+	\twentyitem
+		{2013--2019}
+		{B.Sc. em Ciência da Computação}
+		{UFMA}
+		{\emph{Descoberta e Desconexão de Objetos Inteligentes em Ambientes Oportunísticos de IoMT}}
+\end{twenty}
+
+\section{experiência}
+
+\begin{twenty}
+	\twentyitem
+		{2019--Atual} % Date(s)
+		{Developer} % Job title
+		{Secretaria de Estado de Administração Penitenciária do Maranhão \\\hspace*{\fill}(SEAP)}
+		{$\bullet$ Me tornei responsável pelo projeto, construção e implantação de um serviço e API flexível para armazenar informação de \textit{logs} de outros sistemas utilizando Spring Boot e MongoDB;\vskip 4pt
+
+		$\bullet$ Implementação de aplicação móvel utilizando Android nativo que permite que visitantes agendem visitas virtuais para seus familiares presos, recurso importante durante a pandemia do Covid-19;\vskip 4pt
+
+		$\bullet$ Também parte do grupo responsável pela manutenção e implementação de novas funcionalidades do sistema que gerencia todas as informações prisionais do estado.}
+	
+	\twentyitem
+		{2019--2019}
+		{Estagiário}
+		{Laboratório de Sistemas Distribuídos Inteligentes \\\hspace*{\fill}(LSDi)}
+		{Desenvolvimento de sistema para localização \textit{indoor} baseado em \textit{beacons bluetooth}, consistindo em:\vskip 4pt
+          
+			$\bullet$ Desenvolvimento de sistema Web que armazena todos os relacionamentos entre usuários, \textit{beacons} bluetooth e espaços físicos usando o framework Spring Boot e PostgreSQL;\vskip 4pt
+        
+			$\bullet$ Desenvolvimento de aplicação Android capaz de detectar os \textit{beacons} no ambiente e registrar este encontro em um serviço Web utilizando Retrofit.}
+			
+	\twentyitem
+		{2017--2019} % Date(s)
+		{Aluno de Iniciação Científica} % Job title
+		{Laboratório de Sistemas Distribuídos Inteligentes \\\hspace*{\fill}(LSDi)}
+		{$\bullet$ Implementação de novas funcionalidades em um middleware de IoT existente usando Java na plataforma Android, incluindo o mecanismo de notificação para descoberta, conexão e desconexão de objetos inteligentes;\vskip 4pt 
+
+			
+		$\bullet$ Desenvolvimento de software embarcado usando a linguagem de programação C em placas Arduino, incluindo o uso de tecnologia \textit{Bluetooth Low Energy};\vskip 4pt 
+		
+
+		$\bullet$ Integração entre software embarcado e móvel usando as tecnologias \textit{Bluetooth Low Energy} e MQTT.}
+
+		
+
+
+\end{twenty}
+
+
+\section{outras informações}
+
+Buscar uma formação em ciência da computação foi o próximo passo lógico a ser feito. Eu me tornei apaixonado por diversos campos.
+
+Eventualmente eu cheguei a conclusão que o domínio dos conceitos básicos, os fundamentos, é o caminho a se seguir para se tornar um profissional competente, então eu geralmente sigo uma abordagem \textit{bottom-up} ao estudar qualquer tópico.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%TWENTY LIST SHORTITEMS%%%%%%%%%%%%%%
+%%% Two arguments: date; title/description %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%ENDBODY%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+
+\end{document} 
